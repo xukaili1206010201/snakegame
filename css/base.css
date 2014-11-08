@@ -2,9 +2,9 @@
 显示方式、外边框和自动居中、宽度、文字对齐方式
 */
 header{
-    display:inline-block;
+    display:table;
     margin:0 auto;
-    width:600px;
+    width:800px;
     text-align:center;
 }
 
@@ -12,8 +12,8 @@ header{
 字体、字体大小、粗体
 */
 header h1{
-    font-family:黑体;
-    font-size:40px;
+    font-family:italic;
+    font-size:35px;
     font-weight:oblique;
 }
 
@@ -24,15 +24,15 @@ header h1{
 圆角、隐藏下划线
 */
 header #newgamebutton{
-    display:inline-block;
-    margin:20px auto;
+    display:table;
+    margin:15px auto;
 
     width:100px;
     padding:10px 10px;
-    background-color:#ffffff;
+    background-color:#000;
 
-    font-family:黑体;
-    color:green ;
+    font-family:italic;
+    color:pink;
 
     border-radius:10px;
     text-decoration:none;
@@ -42,16 +42,16 @@ header #newgamebutton{
 背景色
 */
 header #newgamebutton:hover{
-    background-color:#ff6678;
+    background-color:#663333;
 }
 
 /*游戏得分的样式，
 字体、字体大小、外边框和自动居中
 */
 header p{
-    font-family:黑体;
-    font-size:40px;
-    margin:20px auto;
+    font-family:italic;
+    font-size:35px;
+    margin:15px auto;
 }
 
 /*游戏得分变化的样式，颜色
@@ -66,12 +66,12 @@ header p{
 圆角、定位方式
 */
 #grid-container{
-    width:600px;
-    height:600px;
+    width:500px;
+    height:500px;
     padding:30px;
 
-    margin:20px auto;
-    background-color:#BF0001;
+    margin:15px auto;
+    background-color:#bbada0;
 
     border-radius: 10px;
     position: relative;
@@ -86,7 +86,7 @@ header p{
     width:150px;
     height:150px;
     border-radius: 10px;
-    background-color: #5D3193;
+    background-color:#ccc0b3;
 
     position: absolute;
 }
@@ -98,12 +98,12 @@ header p{
 定位方式
 */
 .number-cell{
-    font-family:黑体;
+    font-family:italic;
     font-size:60px;
     font-weight:oblique;
     text-align:center;
 
-    line-height:120px;
+    line-height:100px;
     border-radius: 10px;
    
     position: absolute;
